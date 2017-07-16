@@ -1,0 +1,6 @@
+framework module Pods_FungjaiTest {
+  umbrella header "Pods-FungjaiTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FungjaiTestUITests {
+  umbrella header "Pods-FungjaiTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
