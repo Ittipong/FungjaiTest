@@ -110,7 +110,7 @@ extension DataRequest {
               //  print("Response : "+dataString.stringValue)
                 let code = res.statusCode
                 let failureReason = "\(code)"+" "+HTTPURLResponse.localizedString(forStatusCode:res.statusCode)
-                let error = newError(code, failureReason: failureReason+"\n\n"+dataString!)
+                let error = newError(code, failureReason: failureReason+"\n\n"+dataString.stringValue)
                 
                 return .failure(error)
                 
